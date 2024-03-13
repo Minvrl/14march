@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to right,#023787,#3277df) ;
+}
+*{
+    box-sizing: border-box;
+}
+
+.form-box{
+    margin-top: 40px;
+    border-radius: 15%;
+}
+
+.form-box .title{
+    font-size: 27px;
+    padding: 26px;
+    background-color: #f8f8f9;
+}
+
+.form-box form{
+    border-top: 1px solid gainsboro;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.form-box .footer{
+    font-size: 14px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f9;
+    border-top:1px solid gainsboro;
+}
