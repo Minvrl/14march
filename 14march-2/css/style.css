@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #040b14;
+    width: 310px;
+}
+.sidebar .image{
+    padding: 15px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.sidebar .image img{
+    border: 10px solid #2c2f3f;
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+}
+
+.sidebar .name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+}
+.sidebar .socials{
+    padding: 20px;
+    display: flex;
+   justify-content: center;
+}
+
+.sidebar .socials li{
+    border: 10px solid #2c2f3f;
+    border-radius: 50%;
+    margin: 0 4px;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.sidebar .socials li:hover{
+    border: 10px solid #293fbd;
+}
+
+.sidebar .socials a{
+    color: aliceblue;
+}
+
+.sidebar .menu{
+    text-align: left;
+    padding: 17px 33px;
+}
+
+.sidebar .menu li{
+    margin-bottom: 40px;
+
+}
+
+.sidebar .menu a{
+    color: rgba(240, 248, 255, 0.632);
+    font-size: 17px;
+    transition: 0.2s;
+}
+.sidebar .menu i{
+    color: gainsboro;
+    transition: 0.2s;
+
+}
+.sidebar .menu li a:hover{
+    color: aliceblue;
+}
+
+.sidebar .menu li i:hover{
+    color: rgb(19, 68, 248);
+}
+
+.footer {
+    margin: 12px;
+    align-items: center;
+    text-align: center;
+}
+.footer h1{
+    font-size: 15px;
+    padding: 10px;
+    color: aliceblue;
+}
+.footer a{
+    color: #7c8ce8;
+
+}
+.footer p{
+    
+    font-size: 14px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 1150px) {
+    .sidebar{
+        display: none;
+    }
+   
+  }
